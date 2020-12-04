@@ -33,13 +33,13 @@ Asignatura de Entorno Cliente, Entrega de Tareas
 
 ## Tarea_4
 > Una Carpeta disponibles: se realizan los dos ejercicios dificiles
-	 - **Ejercicios DOM:** 
-	 > - Calculadora
-	 > - Calendario
+- **Ejercicios DOM:** 
+> - Calculadora
+> - Calendario
 
 ## Tarea_5
 > Una Carpeta disponibles
-	 - **Tres En Raya:** 
+- **Tres En Raya:** 
 
 ## Tarea_6
 >en proceso para futuras tareas
