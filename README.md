@@ -1,3 +1,6 @@
+
+
+
 # Entorno cliente
 Asignatura de Entorno Cliente, Entrega de Tareas
 
@@ -6,10 +9,10 @@ Asignatura de Entorno Cliente, Entrega de Tareas
 
 ## Tarea_1:
 >- **Ejercicios de Objetos:** se realizan los dos ejercicios basicos y dos dificiles.
-	 - **Básico:** (Basico1, Basico2)
-	 - **Facil:**
-	 -  **Medio:**
-	 -  **Dificil:** (Dificil1, Dificil2)
+	 >- **Básico:** (Basico1, Basico2)
+	 >- **Facil:**
+	 >-  **Medio:**
+	 >-  **Dificil:** (Dificil1, Dificil2)
 
 ## Tarea_2
  - **Uso de Métodos:** se realizan los dos ejercicios dificiles
