@@ -42,6 +42,8 @@ Asignatura de Entorno Cliente, Entrega de Tareas
 - **Tres En Raya:** 
 
 ## Tarea_6
->en proceso para futuras tareas
+> Dos Carpetas disponibles
+- **Tablero AmongUs**
+- **Aleatorizador de Grupos**
 ## Tarea_7
 >en proceso para futuras tareas
