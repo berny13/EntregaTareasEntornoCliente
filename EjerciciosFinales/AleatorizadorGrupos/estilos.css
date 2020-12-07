@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 2px solid orange;
+    padding:20px;
+}
+#btn_guardar{
+    color:white;
+    font-weight:bold;
+    background-color:orange;
+    width:100px;
+    height:25px;
+    font-size:15px;
+    text-align: center;
+}
+#btn_generar{
+    color:white;
+    font-weight:bold;
+    background-color:orange;
+    width:145px;
+    height:25px;
+    font-size:15px;
+    text-align: center;
+    margin: 16px;
+}
