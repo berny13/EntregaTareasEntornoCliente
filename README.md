@@ -22,7 +22,7 @@ Asignatura de Entorno Cliente, Entrega de Tareas
 ## Tarea_3
 >Tres Carpetas disponibles
 - **Clases JavaScript:**
->- Fácil
+>- Dificil
 - **Objetos Predefinidos:** 
 	- **Tres Carpetas:** se realizan tres ejercicios de cada apartado
 		 >- **Date:** (Fecha Magica, Leche y Galletas, Dias de la semana)
