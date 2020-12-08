@@ -26,7 +26,7 @@ Asignatura de Entorno Cliente, Entrega de Tareas
 - **Objetos Predefinidos:** 
 	- **Tres Carpetas:** se realizan tres ejercicios de cada apartado
 		 >- **Date:** (Fecha Magica, Leche y Galletas, Dias de la semana)
-		 >- **Math:** (Cono, Distance, Pares Impares)
+		 >- **Math:** (AñosDias, CalculoDistance, SumaDosNumerosPequeños)
 		 >- **Regex:**(File Name, LastN,  Vocales)
  - **Trabajo Investigación:**
 
