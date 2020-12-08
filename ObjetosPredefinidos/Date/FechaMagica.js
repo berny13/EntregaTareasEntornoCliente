@@ -1,5 +1,5 @@
-const Magic = str => {
-  const [dd, mm, yyyy] = str.split(" ");
-  const calc = String(dd * mm);
-  return calc === yyyy.slice(-calc.length);
+function Magic(str) {
+	var day =  str.split(' ')[0];
+	var month = str.split(' ')[1];
+	return str.endsWith(day * month) ? true : false;
 }
