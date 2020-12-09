@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
-<body background="https://picsum.photos/200/300?random">
-    <img id="image" src="https://unsplash.com/s/photos/random" alt="imageAlt">
-    <button type="button" onclick="cambio()//*location.reload()">Cambiar Imagen</button>
-    <script src="javascript.js"></script>
+<body>
+    <canvas id="imagen" width="480" height="320"></canvas>
+    <style>
+       * {
+      padding: 0;
+      margin: 0;
+    }
+    canvas {
+      background: #eee;
+      display: block;
+      margin: 0 auto;
+    }
+    </style>
+    <script src="js.js"></script>
 </body>
 </html>
