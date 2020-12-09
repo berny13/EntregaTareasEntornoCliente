@@ -12,7 +12,7 @@ img.src = "rebota.jpg";
 function drawBall() {
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-    ctx.fillStyle = img;
+    ctx.fillStyle = color;
     ctx.drawImage(img, 0, 0);
     ctx.fill();
     ctx.closePath();
