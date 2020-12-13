@@ -8,22 +8,28 @@
     <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    Nombre: <input id="nomb" style="margin:10px" type="text"><br><br>
-    Apellido:<input id="cat" style="margin:4px" type="text"><br><br>
-    <button id="btn_guardar" onclick="guardar()">Guardar</button><br><br>
-    
+    <h1>Random Group Generator</h1>
+    <div class="wrap alt">
+        <p class="pergroup-wrap">numero de estuduantes por grupo: <input class="pergroup" type="integer" value="" /></p>
+        <p class="numgroups-wrap">numero de grupos: <input class="numgroups" type="integer" value="" /></p>
+        <p><textarea name="students" id="students" cols="40" rows="15">estudiante0
+     estudiante1
+     estudiante2
+     estudiante3
+     estudiante4
+     estudiante5
+     estudiante6
+     estudiante7
+     estudiante8
+     estudiante9
+     estudiante10
+     estudiante11
+     estudiante12
 
-    <table >
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-            </tr>
-        </thead>
-        <tbody id="tablita">
-
-        </tbody>
-    </table>
-    <button id="btn_generar" onclick="guardar()">Generar Grupo</button><br><br>
+</textarea></p>
+        <button onclick="">HacerGrupos</button>
+        <div class="groups"></div>
+    </div>
+<script src="js.js"></script>
 </body>
 </html>
