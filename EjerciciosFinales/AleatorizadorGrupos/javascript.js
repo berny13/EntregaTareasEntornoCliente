@@ -1,19 +1,42 @@
-function guardar(){
-   
-    var _nom = document.getElementById("nomb").value;
-    var _cat = document.getElementById("cat").value;
-    
-    
+$("button").on("click", function (e) {
+	e.preventDefault();
+	var nombresporGrupo = parseInt($(".pergroup").val()),
+		todoslosNombres = $("textarea").val().split("\n"),
+		nombreslenght = todoslosNombres.length;
 
-    var fila="<tr><td>"+_nom+"</td><td>"+_cat+"</td></tr>";
+	var numerogrupos = Math.ceil(nombreslenght / nombresporGrupo);
 
-    var btn = document.createElement("TR");
-   	btn.innerHTML=fila;
-	document.getElementById("tablita").appendChild(btn);
+	if ($(".numerogrupos").val()) {
+		numerogrupos = parseInt($(".numerogrupos").val());
+		nombresporGrupo = nombreslenght / numerogrupos;
+	}
 
-	var _cat = document.getElementsById("precio").value; 
+	$(".grupos").empty();
 
-for (var i = 1; i <= list.length; i++) { 
-	list[i].innerHTML = i;
- }
-}
+	for (i = 0; i < numerogrupos; i++) {
+		$(".grupos").append(
+			'<div class="group" id="group' +
+				(i + 1) +
+				'"><h2>Group ' +
+				(i + 1) +
+				"</h2></div>"
+		);
+	}
+
+	$(".group").each(function () {
+		for (j = 0; j < nombresporGrupo; j++) {
+			var randname = Math.floor(Math.random() * todoslosNombres.length);
+			if (todoslosNombres[randname]) {
+				$(this).append("<p>" + todoslosNombres[randname] + "</p>");
+			}
+			todoslosNombres.splice(randname, 1);
+			console.log(todoslosNombres);
+		}
+	});
+});
+
+$(".toggle-wrap a").on("click", function (e) {
+	e.preventDefault();
+	$(".wrap").toggleClass("alt");
+	$(".pergroup-wrap, .numerogrupos-wrap").find("input").val("");
+});
