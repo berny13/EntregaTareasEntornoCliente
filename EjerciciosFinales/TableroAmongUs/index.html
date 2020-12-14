@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body id="body">
+    <div id="head">
+        <center>
+            <img id="letrero" src="amongUs.jpg" width="600px" height="162px">
+            <h2>Players</h2>
+            <select id="numJugadores" type="text">
+                <option value="3" selected>3
+                <option value="4">4
+                <option value="5">5
+                <option value="6">6
+                <option value="7">7
+                <option value="8">8
+                <option value="9">9
+                <option value="10">10
+            </select>
+            <input type="button" value="Play" onclick="coloresTablero()" style="background-color: #fedc97;">
+            <p>
+        </center>
+    </div>
+
+
+    <div id="personajes" >
+        <div class="contenedor" >
+            <ul>
+                <li id="jugador1" style="background-color: #7c9885;">
+                    <div class="boton">Antonio</div>
+                    <img src="rojo.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Win()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Lose()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador2" style="background-color: #7c9885;">
+                    <div class="boton">Gabri</div>
+                    <img src="azul.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador3" style="background-color: #7c9885;">
+                    <div class="boton">Jesus</div>
+                    <img src="blanco.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador4"  style="background-color: #7c9885;">
+                    <div class="boton">Juan</div>
+                    <img src="amarillo.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador5" style="background-color: #7c9885;">
+                    <div class="boton">Javier</div>
+                    <img src="verde.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="avertencia()">
+                </li>
+            </ul>
+        </div>
+        <div class="contenedor2">
+            <ul>
+                <li id="jugador6" style="background-color: #7c9885;">
+                    <div class="boton">Marta</div>
+                    <img src="naranja.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador7" style="background-color: #7c9885;">
+                    <div class="boton">Isabel</div>
+                    <img src="celeste.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador8" style="background-color: #7c9885;">
+                    <div class="boton">Ricardo</div>
+                    <img src="marron.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador9" style="background-color: #7c9885;">
+                    <div class="boton">Javier</div>
+                    <img src="rosa.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+            <ul>
+                <li id="jugador10" style="background-color: #7c9885;">
+                    <div class="boton">Azahara</div>
+                    <img src="Black.png" width="60px" height="84px">
+                    <input type="button" value="si" style="background-color: #fedc97;" onclick="Lose()">
+                    <input type="button" value="no" style="background-color: #B5B682;" onclick="Warning()">
+                </li>
+            </ul>
+        </div>
+        <button class="button1" onclick="location.reload()">RESTART</button>
+
+    </div>
+
+    <div id="malvado">
+        <h1>EL IMPOSTOR GANA</h1>
+        <img src="https://pa1.narvii.com/7688/216cba2c49acc4f91b7f6ba27b3f27f9e3923e80r1-444-250_hq.gif" id="img">
+    </div>
+
+    <div id="personajes">
+        <h1>EL OTRO EQUIPO GANA</h1>
+        <img src="https://media1.tenor.com/images/2b54629aeaf2118e907b99a270066661/tenor.gif?itemid=18613647%22%3E"
+            id="img">
+    </div>
+
+    <script type="text/javascript" src="js.js"></script>
+</body>
+
+</html>

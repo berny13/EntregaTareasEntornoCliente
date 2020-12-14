@@ -1,0 +1,50 @@
+body{
+    background: url("imagen/espacio.gif");
+}
+#personajes{
+    border: 2px black solid;
+    margin: auto;
+    width: 600px;
+    
+}
+#personajes .contenedor{
+   float: left;
+   margin-top: 1em;
+} 
+#personajes .contenedor2{
+    float: right;
+}
+
+#jugador1, #jugador2, #jugador3, #jugador4, #jugador5, #jugador6, #jugador7, #jugador8, #jugador9, #jugador10 {
+    visibility: hidden;
+}
+
+#malandro{
+    visibility: hidden;
+}
+
+#buenandros{
+    visibility: hidden;
+}
+
+h1 {
+    color: green;
+    border: 20px solid black;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+#img{
+    border: 20px solid black;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1{
+text-align: center;
+margin-left: 96px;
+}
